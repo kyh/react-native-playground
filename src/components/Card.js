@@ -21,7 +21,7 @@ const styles = {
 export default function Card(props) {
   return (
     <View style={styles.containerStyle}>
-
+      {props.children}
     </View>
   );
 }
