@@ -11,7 +11,7 @@ import AlbumList from './src/components/AlbumList';
 
 export default function App() {
   return (
-    <View>
+    <View style={{ flex: 1 }}>
       <Header title="Albums" />
       <AlbumList />
     </View>
