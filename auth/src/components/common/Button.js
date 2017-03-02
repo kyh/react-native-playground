@@ -22,10 +22,10 @@ const styles = {
   }
 };
 
-export function Button({ onClick, children }) {
+export function Button({ onPress, children }) {
   const { buttonStyle, textStyle } = styles;
   return (
-    <TouchableOpacity onPress={onClick} style={buttonStyle}>
+    <TouchableOpacity onPress={onPress} style={buttonStyle}>
       <Text style={textStyle}>
         {children}
       </Text>
